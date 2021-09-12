@@ -13,7 +13,7 @@ const showProducts = (products) => {
     div.classList.add("product");
     div.innerHTML = `
     <div class="single-product">
-        <div class="card h-100 shadow rounded-3 p-4">
+        <div class="card-bg-design h-100 shadow-md rounded-3 p-4">
           <img class="product-image mx-auto" src=${image}></img>
             <div class="card-body">
               <h4>${product.title}</h4>
