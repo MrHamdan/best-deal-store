@@ -23,16 +23,22 @@
 </head>
 
 <body>
+  <!-- Header Start -->
   <header>
     <h1 class="text-center py-2 fw-bold text-success shadow-sm">Best <span class="text-danger">Deal</span> Store</h1>
   </header>
+  <!-- Header End -->
+  <!-- Main Start -->
   <main class="main">
+    <!-- Search Area Start -->
     <div class="input-group mb-3 w-50 mx-auto py-5">
       <input type="text" class="form-control" placeholder="Search Products" aria-label="Recipient's username"
         aria-describedby="button-addon2">
       <button onclick="loadProducts()" class="btn btn-outline-success mx-3" type="button"
         id="button-addon2">Search</button>
     </div>
+    <!-- Search Area End -->
+    <!-- All Product And My Cart Area Start -->
     <div class="row">
       <div class="row row-cols-1 row-cols-md-3 g-4 col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
@@ -88,7 +94,9 @@
         </div>
       </div>
     </div>
+    <!-- All Product And My Cart Area End -->
   </main>
+  <!-- Main End -->
   <footer></footer>
 
   <!-- add javascript  file  -->
