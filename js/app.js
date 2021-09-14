@@ -15,14 +15,12 @@ const showProducts = (products) => {
     <div class="single-product">
         <div class="card-bg-design h-100 shadow-md rounded-3 p-4">
           <img class="product-image mx-auto rounded" src=${image}></img>
-            <div class="card-body">
               <h4>${product.title}</h4>
               <p>Category: ${product.category}</p>
               <p>Rating : ${product.rating.rate}  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></p> <p>Reviews : ${product.rating.count}  <i class="fas fa-users"></i></p> 
-              <h2>Price: $ ${product.price}</h2>
+              <h4>Price: $ ${product.price}</h4>
               <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">Add to cart</button>
               <button id="details-btn" class="btn btn-danger">Details</button>
-            </div>
         </div>
     </div>
       `;
